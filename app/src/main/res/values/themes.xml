@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FreeSignalsForTrading" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/purple_200</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.FreeSignalsForTrading.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FreeSignalsForTrading.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorPrimary">@color/header</item>
+    </style>
+
+    <style name="Theme.FreeSignalsForTrading.PopupOverlay" parent="Widget.AppCompat.Toolbar" >
+
+    </style>
+
+    <style name="navTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="colorOnSecondary">@color/secondary</item>
+    </style>
+
+    <style name="TextAppearance.App" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/noto_sans_jp_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_jp_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="BottomItemText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/noto_sans_jp_thin</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TopItemText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/noto_sans_jp_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NavHeaderText">
+        <item name="fontFamily">@font/noto_sans_jp_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="defaultText">
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

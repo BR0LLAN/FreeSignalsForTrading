@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Free Signals for Trading</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Quotes</string>
+    <string name="menu_gallery">Alerts</string>
+    <string name="menu_slideshow">Favorite</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rate_app">Rate App</string>
+    <string name="free_signal_app">free signal app</string>
+    <string name="notification">notification</string>
+    <string name="chart">chart</string>
+    <string name="chort">chort</string>
+    <string name="delete">delete</string>
+    <string name="add_alert">ADD ALERT</string>
+    <string name="price">PRICE :</string>
+    <string name="amount_of_notification">amount of notification</string>
+    <string name="pause_in_minutes">Pause in minutes</string>
+    <string name="comment">COMMENT</string>
+    <string name="price_is_the_target_price_under_achievement_of_which_the_notification_will_be_delivered">Price - is the target price under achievement of which the notification will be delivered</string>
+    <string name="pause_in_minutes_on_default_is_0_minutes_enter_a_pause_in_minutes">Pause in minutes on default is 0 minutes. Enter a pause in minutes.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remove_from_alerts">REMOVE FROM ALERTS?</string>
+
+    <style name="open">open</style>
+
+    <style name="close">close</style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

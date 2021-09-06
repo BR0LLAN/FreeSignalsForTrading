@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container_quotes_item">
+
+    <TextView
+        android:id="@+id/quote_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        style="@style/TopItemText" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/quote_name"
+        style="@style/BottomItemText" />
+
+    <TextView
+        android:id="@+id/quote_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/quote_name"
+        android:gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        style="@style/TopItemText" />
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quote_value"
+        android:gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        style="@style/BottomItemText" />
+
+    <FrameLayout
+        android:id="@+id/frame_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percent"
+        android:background="@drawable/line_bottom"/>
+
+
+
+</RelativeLayout>

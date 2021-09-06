@@ -1,0 +1,2 @@
+rootProject.name = "Free Signals for Trading"
+include ':app'
